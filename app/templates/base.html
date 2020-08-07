@@ -1,0 +1,27 @@
+<html>
+    <head>
+        {% if title %}
+        <title> TeachUs -- {{ title }} </title>
+        {% else %}
+        <title> TeachUs </title>
+        {% endif %}
+    </head>
+    <body>
+        <h1> TeachUs </h1>
+        <nav>
+            <a href="{{url_for('index')}}">Home</a>
+            <a href="{{url_for('login')}}">Login</a>
+            <a href="{{url_for('logout')}}">Logout</a>
+        </nav>
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        <ul>
+            {% for msg in messages %}
+            <li> {{msg}} </li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+        {% endwith %}
+        {% block content %} {% endblock %}
+    </body>
+</html>
