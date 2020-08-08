@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="banner-area relative" id="home">
+    <div class="overlay overlay-bg"></div>	
+    <div class="container">
+        <div class="row fullscreen d-flex align-items-center justify-content-between">
+            <div class="banner-content col-lg-9 col-md-12">
+                <center>  
+                <h1 class="text-uppercase">
+                   ChatBot		
+                </h1>
+				<div id="wrapper">
+					<div id="menu">
+						
+						<a class="menu_bar" href="{{url_for('homework')}}">Chatbot</a>
+						
+					</div>
+					<h1></h1>
+					<p></p>
+					<br><br>
+					
+				</div>
+  				</center>
+            </div>	
+            									
+        </div>
+    </div>					
+</section>
+
+		
+{% endblock %}

@@ -4,11 +4,18 @@ from app.forms import LoginForm, RegistrationForm
 from app.models import User
 from flask_login import current_user, login_user, logout_user
 from werkzeug.urls import url_parse
+import json
 
 @app.route('/')
 @app.route('/index')
 def index():
     return render_template('index.html')
+@app.route('/bot')
+def bot():
+    return render_template('bot.html')
+@app.route('/homework')
+def homework():
+    return render_template('homework.html')
 @app.route('/about')
 def about():
     return render_template('about.html')
