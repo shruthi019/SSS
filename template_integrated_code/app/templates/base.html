@@ -64,8 +64,8 @@
                 <nav id="nav-menu-container">
                   <ul class="nav-menu">
                     <li><a href="{{url_for('index')}}">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="resource_lib.html">Resource Library</a></li>
+                    <li><a href="{{url_for('about')}}">About</a></li>
+                    <li><a href="{{url_for('resources')}}">Resource Library</a></li>
                     <li><a href="{{url_for('login')}}">Login</a></li>
                     <li><a href="{{url_for('logout')}}">Logout</a></li>
                     <li> &nbsp&nbsp<a href="/blog/"> Blog </a> </li>
@@ -73,16 +73,7 @@
 <li> &nbsp&nbsp<a href="/blog/feeds/all.atom.xml">ATOM</a> </li> <-->
                     <li> &nbsp&nbsp<a href="/fileupload/">FileUpload</a></li>
                     
-                    <li class="menu-has-children"><a href="">Blog</a>
-                      <ul>
-                        <li><a href="blog-home.html">Blog Home</a></li>
-                        <li><a href="blog-single.html">Blog Single</a></li>
-                      </ul>
-                    </li>	
-                    <li class="menu-has-children"><a href="">Pages</a>
-                      <ul>
-                            <li><a href="course-details.html">Course Details</a></li>		
-                                
+                      
                           
                                                                     
                       </ul>
