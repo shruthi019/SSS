@@ -1,7 +1,8 @@
-from app import db, loginmanager
+from app import db, loginmanager, blog_engine
 from werkzeug.security import generate_password_hash, check_password_hash
 
 @loginmanager.user_loader
+@blog_engine.user_loader
 def user_loader(id):
     return User.query.get(int(id))
 
@@ -14,7 +15,7 @@ class User(UserMixin, db.Model):
     password_hash = db.Column(db.String(128))
 
     def __repr__(self):
-        return '<User {}>'.format(self.username)
+        return '<{}>'.format(self.username)
 
     def set_password(self, password):
         self.password_hash = generate_password_hash(password)
