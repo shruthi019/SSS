@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "tec-hpvg",
+  "private_key_id": "3daa69077950c5682ce990e21a2caaeb3d21b133",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDgFJEXMzhe5Rmu\nmW9mfL727uq1512ekHXVZ17rA54SgkcW0J1P7Oig2vZEjYSa6s+qdZKXfzm/Dpey\njJM6m7oX7nx+xl6c4jS90sdJ7t9C8Nmo8JJwklYd73Q3S1ycOouzycC7C8qX7DWI\nJKIyC969EaN6CemXapYtFvUcPtOHHtg/0XnfvdUh25hLygmbnZQrRrmkYYgid2G6\njwZl5EAXu8nRW4l2xTweOHj6A5/toIvTfeZoDU43EP3ofM5DJizOx8w09np+bCQb\ntNQ5sg6t4+jQzEuvR7jyUFqfJztQFZKy00MZN01REfF7FJc3jLg7zNSa2cwlinMI\nlnEziEQhAgMBAAECggEAEIjz++ZHrpjxQDUKR2HFJauTnkCoY979EvZBxs3JiEwc\nus5CDXfJ4rTFn2Fh+5yAHm/2lT9KH5MQFpjQ9G4xWTq77Q7uRF1czvUSx53c06+6\nIAFAjRX/TM4yoTHqb4zSaj3k/uhr1rITcSxi25aMpR78FTFOD2JKGqGrDJ6GNV4p\n6wNDhEfvcmVv/+fAcvGl0MnNHJHrDmu0xJtVTk/BIKCLVK0nKt7y41krUn/Njv2E\nli/ZvLGrhhTQB/VvpLRn5dMUHD1d46c4iDwZWa4nYjo9AaHcfZtrFep+9zf5gEPb\nY2LB7gjXUwnYgTeJFSciPUAKJOXK4xQOGiQ9AcBBkQKBgQD7lu28rQtGxan2Gn+V\ns2WpWp+V12cOE+K76FpuQ/YV5ZPe+qZCzaN0KXNEI0RzZUdleCYfJIutjy23e3Xo\nnvXwbUoQqUFhf+R3f7DeszDw/yge6ePNCPx843sFip4DCeq+VoO9vTLBwUzaMFES\ng3wxwjP/kPefA1UMsHbnBwvR5wKBgQDkAi78iLHvbYKa7BA0PacLFUdUlpx7Tzp8\nudlxS8y9IH4Zkd2EEMZs/u5a+HXoM+kos54U8gQNFSFql+79qr/6nynHcIac24iC\n7KgwghV+N9vNgi1pSpzufRGiEJGmytwUItBndiCipfDySUeGkpjr4XF6yRfCXjBB\nYl/0k4oItwKBgQD55YhuiFNTELMpSFjCEVdBSEqLQ1GRoh7sFnb8X3TnewnNyZmr\ncSaSEznyzDUJiefI2fbDqEE1O6plPbR4Qqx3C5ctxXCzr5z3NVYxXjuWpVrsmdUz\nq2Ffi3R+pJke25LXTIe+x1bLLX1wm91rTj7mDcgoaY4L2/t2hzETeOQ8sQKBgQCI\niHYyaniCcwUeV/VsEu8QR/GqyXVysYLIZVG78jPrnKVmEl6fUpw/cHiyqM2R+mPI\nJ6alzDZ4zwpvlgNaiwDixqRx9QPmsd8Q5z3frkXIixJoAWfIARHwDZyde2Z8hkU7\nGY3KJoZsXwnlS9Q01VwVA668Y+aCUXx76rii8CZcCQKBgG/+cq4tdm39G7ZKbnMn\n4OvxqFm/9BCoG+AFc1DHu2H/VkGhHb6E7xJxRjrsNKM9Jlc0O3jtNpEmF48gQR+K\n+Bpx52iV98EAiAn7FAGsIrhYZtjD0P7eO/feeGVFDbmrSPVtglSgRwz5yjADeJ4v\n9fxLvu6isHYIjrVlfR2Gju/E\n-----END PRIVATE KEY-----\n",
+  "client_email": "teaching-assistant@tec-hpvg.iam.gserviceaccount.com",
+  "client_id": "108829531215270079412",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/teaching-assistant%40tec-hpvg.iam.gserviceaccount.com"
+}
