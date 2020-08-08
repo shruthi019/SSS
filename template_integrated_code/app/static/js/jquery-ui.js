@@ -7888,7 +7888,7 @@ $.extend( Datepicker.prototype, {
 	 */
 	_showDatepicker: function( input ) {
 		input = input.target || input;
-		if ( input.nodeName.toLowerCase() !== "input" ) { // find from button/image trigger
+		if ( input.nodeName.toLowerCase() !== "input" ) { // find from button/static/image trigger
 			input = $( "input", input.parentNode )[ 0 ];
 		}
 
