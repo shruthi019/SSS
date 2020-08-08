@@ -10,6 +10,16 @@ from werkzeug.urls import url_parse
 def index():
     return render_template('index.html')
 
+@app.route('/resources')
+def resources():
+    return render_template('resources.html')
+@app.route('/resources1')
+def resources1():
+    return render_template('resources1.html')
+@app.route('/resources2')
+def resources2():
+    return render_template('resources2.html')
+
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if current_user.is_authenticated:
@@ -46,4 +56,3 @@ def register():
         flash('You are registered!')
         return redirect(url_for('login'))
     return render_template('register.html', title='Register', form=form)
-
