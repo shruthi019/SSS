@@ -1,0 +1,55 @@
+html {
+	background-image: url("./img/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: Helvetica;
+	color: white;
+}
+
+#wrapper {
+	text-align: center;
+	margin: auto;
+	width: 70%;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+p {
+	font-size: 1.5rem;
+}
+
+.menu_bar{
+	text-decoration: none;
+	display: inline;
+	font-size: 2rem;
+	margin-top: 10px;
+	color: white;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	transition: 0.2s
+}
+
+.menu_bar:hover {
+	color: black;
+	background-color: white;
+}
+
+#menu{
+	background-color: gray;
+	padding: 5px;
+}
+
+#git {
+	text-decoration: none;
+	color: white;
+	transition: 0.5s;
+	font-size: 2rem;
+}
+
+#git:hover {
+	letter-spacing: 7px;
+}
