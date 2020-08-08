@@ -66,8 +66,11 @@
                     <li><a href="{{url_for('index')}}">Home</a></li>
                     <li><a href="{{url_for('about')}}">About</a></li>
                     <li><a href="{{url_for('resources')}}">Resource Library</a></li>
-                    <li><a href="{{url_for('login')}}">Login</a></li>
+                    {% if current_user.is_authenticated %}
                     <li><a href="{{url_for('logout')}}">Logout</a></li>
+                    {% else %}
+                    <li><a href="{{url_for('login')}}">Login</a></li>
+                    {% endif %}
                     <li> &nbsp&nbsp<a href="/blog/"> Blog </a> </li>
 <!--                    <li> &nbsp&nbsp<a href="/blog/sitemap.xml">Sitemap</a> </li>
 <li> &nbsp&nbsp<a href="/blog/feeds/all.atom.xml">ATOM</a> </li> <-->
