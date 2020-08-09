@@ -4,11 +4,34 @@ from app.forms import LoginForm, RegistrationForm
 from app.models import User
 from flask_login import current_user, login_user, logout_user
 from werkzeug.urls import url_parse
+import json
 
 @app.route('/')
 @app.route('/index')
 def index():
     return render_template('index.html')
+@app.route('/bot')
+def bot():
+    return render_template('bot.html')
+@app.route('/homework')
+def homework():
+    return render_template('homework.html')
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+@app.route('/resources')
+def resources():
+    return render_template('resources.html')
+@app.route('/resources1')
+def resources1():
+    return render_template('resources1.html')
+@app.route('/resources2')
+def resources2():
+    return render_template('resources2.html')
+@app.route('/resources3')
+def resources3():
+    return render_template('resources3.html')
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
@@ -46,4 +69,3 @@ def register():
         flash('You are registered!')
         return redirect(url_for('login'))
     return render_template('register.html', title='Register', form=form)
-

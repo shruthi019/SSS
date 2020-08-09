@@ -1,7 +1,15 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1>Sign Up</h1>
+<section class="banner-area relative" id="home">
+    <div class="overlay overlay-bg"></div>	
+    <div class="container">
+        <div class="row fullscreen d-flex align-items-center justify-content-between">
+            <div class="banner-content col-lg-9 col-md-12">
+                <center>
+                <h1 class="text-uppercase">
+                   Sign Up		
+                </h1>
     <form action="" method="post">
         {{ form.hidden_tag() }}
         <p>
@@ -34,5 +42,12 @@
         </p>
         <p>{{ form.submit() }}</p>
     </form>
+</center>
+</div>	
+            									
+</div>
+</div>					
+</section>
+
 {% endblock %}
 
