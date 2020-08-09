@@ -29,6 +29,9 @@ def resources1():
 @app.route('/resources2')
 def resources2():
     return render_template('resources2.html')
+@app.route('/resources3')
+def resources3():
+    return render_template('resources3.html')
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
