@@ -14,12 +14,15 @@ We offer many courses and resources to make your journey in online teaching as s
 2. SQLite
 3. HTML/CSS
 4. Bootstrap
+5. Google Dialogflow
 
 ## Future Scope
 TeachUs has the potential to become a leading community for teachers to share resources, and teach each other in these challenging times.
 
 ## Team - SSS
 Shruthi Rao
+
 Srishti Negi
+
 Sachita Malhotra
 
