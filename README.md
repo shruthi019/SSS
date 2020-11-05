@@ -20,6 +20,8 @@ We offer many courses and resources to make your journey in online teaching as s
 TeachUs has the potential to become a leading community for teachers to share resources, and teach each other in these challenging times.
 
 ## Demo
+Here's the link to the demo video: [TeachUs Demo](https://www.youtube.com/watch?v=mNeLC44eCow&feature=youtu.be)
+
 To run this on your local system, follow these steps:
 
 1. Clone this repository.
